@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Beliefs Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Who should you vote for?</h1>
+        <form id="beliefs">
+          <label for="wall">Do you believe we should build a wall around Mexico AND Canada?</label>
+          <select id="wall" class="form-control form-control-lg">
+            <option>Choose a belief...</option>
+            <option value="1">Hell YES!!</option>
+            <option value="0">No!</option>
+          </select>
+          <label for="email">Do you have multiple email accounts on your phone?</label>
+          <select id="email" class="form-control form-control-lg">
+            <option>Choose a belief...</option>
+            <option value="0">Yes, I don't need my teenager to show me how to use an email account.</option>
+            <option value="1">No, that's way too hard for me to manage.</option>
+          </select>
+          <label for="putin">What are your thoughts on Putin?</label>
+          <select id="putin" class="form-control form-control-lg">
+            <option>Choose a belief...</option>
+            <option value="0">I hate Putin, he knows how to hack email servers!</option>
+            <option value="1">I love Putin! It's kind of scary how much I like him...</option>
+          </select><br>
+          <button type="submit" class="btn btn-primary">Show me!</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
